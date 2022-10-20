@@ -18,7 +18,7 @@ export default function ProductCard({ product }: ProductCardProps) {
       <a href={`/product/${product.id}`}>Open</a>
       <button
         onClick={toggle}
-        class="border rounded px-4 py-2 bg-green-500 text-white"
+        class="border rounded px-4 py-2 bg-blue-500 text-white"
       >
         Toggle description
       </button>
